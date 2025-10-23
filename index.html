@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas Interativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Minha Lista</h1>
+
+        <div id="feedback-message" class="feedback"></div>
+
+        <div class="input-area">
+            <input type="text" id="item-input" placeholder="Digite um item (mín. 5 chars)">
+            <div class="options">
+                <input type="checkbox" id="include-image">
+                <label for="include-image">Inserir PNG (Req 6)</label>
+            </div>
+            <button id="add-btn">Adicionar</button>
+        </div>
+
+        <ul id="item-list">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
